@@ -141,9 +141,9 @@ if (thirsty === true)
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-{ let x; }
+let x1;
 
-if(x){
+if(x1){
 	console.log("True!");
 } else {
 	console.log("False!");
@@ -161,7 +161,7 @@ if(""){
 
 // 23.
 // this ebbpression will set bb to NaN
-{ let x = 1 * undefined; }
+let x = 1 * undefined;
 
 if(x){
 	console.log("True!");
